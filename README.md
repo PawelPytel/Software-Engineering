@@ -1,20 +1,35 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Scenario Quality Checker (SQC)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Opis projektu
+Dla analityków dokumentujących wymagania funkcjonalne za pomocą scenariuszy nasza aplikacja SQC dostarczy informacji ilościowych oraz umożliwi wykrywanie problemów w wymaganiach funkcjonalnych zapisanych w postaci scenariuszy. Aplikacja będzie dostępna poprzez GUI a także jako zdalne API dzięki czemu można ją zintegrować z istniejącymi narzędziami.
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Notacja scenariuszy
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+* Scenariusz zawiera nagłówek określający jego tytuł i aktorów (zewnętrznych oraz system)
+* Scenariusz składa się z kroków (każdy krok zawiera tekst)
+* Kroki mogą zawierać pod-scenariusze (dowolny poziom zagłębień)
+* Kroki mogą się zaczynać od słów kluczowych: IF, ELSE, FOR EACH
+
+Przykład:\
+__Tytuł__: Dodanie książki\
+__Aktorzy__:  Bibliotekarz\
+__Aktor systemowy__: System
+
+* Bibliotekarz wybiera opcje dodania nowej pozycji książkowej
+* Wyświetla się formularz.
+* Bibliotekarz podaje dane książki.
+* __IF__: Bibliotekarz pragnie dodać egzemplarze książki
+
+    * Bibliotekarz wybiera opcję definiowania egzemplarzy
+    * System prezentuje zdefiniowane egzemplarze
+    * __FOR EACH__ egzemplarz:
+
+        * Bibliotekarz wybiera opcję dodania egzemplarza
+        * System prosi o podanie danych egzemplarza
+        * Bibliotekarz podaje dane egzemplarza i zatwierdza.
+        * System informuje o poprawnym dodaniu egzemplarza i prezentuje zaktualizowaną listę egzemplarzy.
+
+* Bibliotekarz zatwierdza dodanie książki.
+* System informuje o poprawnym dodaniu książki.
+
