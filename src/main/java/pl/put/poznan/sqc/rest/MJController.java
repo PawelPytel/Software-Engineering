@@ -9,6 +9,7 @@ public class MJController {
     @RequestMapping(method = RequestMethod.POST, produces = "applicationn/jso")
     @ResponseBody
     public String post( @RequestBody MJUserModel user) {
+
         return user.imie;
     }
 }
