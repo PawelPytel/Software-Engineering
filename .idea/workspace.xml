@@ -23,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="ONTO" value="refs/remotes/origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,12 +75,12 @@
       </method>
     </configuration>
     <configuration name="TextTransformerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.transformer.app.TextTransformerApplication" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.sqc.app.TextTransformerApplication" />
       <module name="ioprojectarchitecture" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pl.put.poznan.transformer.app.*" />
+          <option name="PATTERN" value="pl.put.poznan.sqc.app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

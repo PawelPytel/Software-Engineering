@@ -1,6 +1,6 @@
-package pl.put.poznan.transformer.rest;
+package pl.put.poznan.sqc.rest;
 import org.springframework.web.bind.annotation.*;
-import pl.put.poznan.transformer.models.ScenarioModel;
+import pl.put.poznan.sqc.models.ScenarioModel;
 
 
 @RestController
