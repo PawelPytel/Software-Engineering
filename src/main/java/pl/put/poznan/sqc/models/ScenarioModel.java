@@ -1,5 +1,4 @@
-package pl.put.poznan.transformer.models;
-import pl.put.poznan.transformer.rest.CarModel;
+package pl.put.poznan.sqc.models;
 import java.util.ArrayList;
 
 public class ScenarioModel {
