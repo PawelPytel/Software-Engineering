@@ -1,8 +1,10 @@
 package pl.put.poznan.sqc.models;
+import pl.put.poznan.sqc.elements.Title;
+
 import java.util.ArrayList;
 
-public class ScenarioModel {
-    public ScenarioModel() {
+public class ScenarioJSONModel {
+    public ScenarioJSONModel() {
         ActorsList = new ArrayList<String>();
         ScenarioLinesList = new ArrayList<String>();
     }

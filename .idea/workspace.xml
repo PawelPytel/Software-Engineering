@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddec5298-a09c-455a-9c39-fa30be24617d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/models/ScenarioLineModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/models/ScenarioModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/CarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/ScenorioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/controller/ScenarioStepCounterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/NormalActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/ScenarioLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/SystemActor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioElementsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/ScenarioStepCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/ScenarioStepCounterVisitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/MJController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/MJController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/MJUserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/MJUserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/ILogic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioLineModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioJSONModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/CarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/trash/CarModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/MJController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/trash/MJController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/MJUserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/trash/MJUserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/ScenorioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/trash/ScenorioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/TextTransformerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/trash/TextTransformerController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -42,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scenario-quality-checker" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -52,6 +66,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.put.poznan.sqc.models" />
       <recent name="pl.put.poznan.transformer.rest" />
     </key>
   </component>
@@ -67,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TextTransformerApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -97,6 +112,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TextTransformerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ioprojectarchitecture" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="pl.put.poznan.sqc.app.TextTransformerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -140,6 +162,8 @@
       <workItem from="1572800156626" duration="6114000" />
       <workItem from="1572807721726" duration="777000" />
       <workItem from="1572808539041" duration="3897000" />
+      <workItem from="1573309705205" duration="16740000" />
+      <workItem from="1573337661290" duration="609000" />
     </task>
     <servers />
   </component>
