@@ -12,7 +12,7 @@ import pl.put.poznan.sqc.visitors.ScenarioStepCounterVisitor;
 @RequestMapping("/ScenarioStepCounter")
 public class ScenarioStepCounter {
 
-    //If you dont have argument, you must use ""
+    // If you dont have argument, you must use ""
     @RequestMapping(method = RequestMethod.POST, produces = "applicationn/jso")
     @ResponseBody
     public String post( @RequestBody ScenarioJSONModel scenarioModel) {
@@ -20,7 +20,7 @@ public class ScenarioStepCounter {
         ScenarioElementsModel elementsModel = new ScenarioElementsModel(scenarioModel);
 
         ScenarioStepCounterController stepCounterList = new ScenarioStepCounterController();
-        //All model elements added
+        // Adding all model elements
         stepCounterList.Attach(elementsModel.Title);
         for (NormalActor nActor:elementsModel.ActorsList) {
             stepCounterList.Attach(nActor);
