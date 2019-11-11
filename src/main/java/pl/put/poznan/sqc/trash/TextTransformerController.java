@@ -1,4 +1,4 @@
-package pl.put.poznan.sqc.rest;
+package pl.put.poznan.sqc.trash;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;

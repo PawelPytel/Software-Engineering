@@ -1,5 +1,5 @@
 package pl.put.poznan.sqc.interfaces;
 
-public interface ILogic {
+public interface IElement {
     void accept(IVisitor visitor);
 }

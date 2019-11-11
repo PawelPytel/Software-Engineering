@@ -1,4 +1,5 @@
-package pl.put.poznan.sqc.rest;
+package pl.put.poznan.sqc.trash;
+
 import java.util.ArrayList;
 
 public class MJUserModel {
