@@ -22,21 +22,18 @@ public class KeyWordsCounterVisitor implements IVisitor{
 
     public void Visit(ScenarioLine element){
         if(!element.scenarioLine.isEmpty() ){
-            if (element.scenarioLine.length()>=8) {
-                if (element.scenarioLine.substring(0, 3).equals("IF ") ||
-                    element.scenarioLine.substring(0, 5).equals("ELSE ") ||
-                    element.scenarioLine.substring(0, 8).equals("FOREACH "))
-                    numberOfKeyWords++;
-            }
-            else if (element.scenarioLine.length()>=5){
-                if (element.scenarioLine.substring(0,3).equals("IF ") ||
-                    element.scenarioLine.substring(0,5).equals("ELSE "))
-                    numberOfKeyWords++;
-            }
-            else if (element.scenarioLine.length()>=3) {
+            if (element.scenarioLine.length()>=3) {
                 if (element.scenarioLine.substring(0, 3).equals("IF "))
-                    numberOfKeyWords++;
+                                numberOfKeyWords++;
+                else if (element.scenarioLine.length()>=5){
+                    if (element.scenarioLine.substring(0,5).equals("ELSE "))
+                        numberOfKeyWords++;
+                    else if (element.scenarioLine.length()>=8) {
+                        if ( element.scenarioLine.substring(0, 8).equals("FOREACH "))
+                            numberOfKeyWords++;
+                    }
+                }
             }
         }
-    }
+    }   
 }
