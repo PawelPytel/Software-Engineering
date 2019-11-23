@@ -13,7 +13,7 @@ import pl.put.poznan.sqc.visitors.ScenarioStepCounterVisitor;
 public class ScenarioStepCounter {
 
     // If you dont have argument, you must use ""
-    @RequestMapping(method = RequestMethod.POST, produces = "applicationn/jso")
+    @RequestMapping(method = RequestMethod.POST, produces = "application/json")
     @ResponseBody
     public String post( @RequestBody ScenarioJSONModel scenarioModel) {
 
