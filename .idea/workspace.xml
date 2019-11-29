@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddec5298-a09c-455a-9c39-fa30be24617d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/controller/ScenarioStepCounterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/controller/ScenarioStepCounterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/KeyWordsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/KeyWordsCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioElementsModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioElementsModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioJSONModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioJSONModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/ScenarioStepCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/ScenarioStepCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/ScenarioStepCounterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/ScenarioStepCounterVisitor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
