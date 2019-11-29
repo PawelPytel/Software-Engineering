@@ -7,12 +7,30 @@ import pl.put.poznan.sqc.elements.Title;
 
 import java.util.ArrayList;
 
+/**
+ * Storage object scenario model
+ */
 public class ScenarioElementsModel {
+    /**
+     * Stores the Title object.
+     */
     public Title Title;
+    /**
+     * Stores the ActorsList objects.
+     */
     public ArrayList<NormalActor> ActorsList;
+    /**
+     * Stores the SystemActor object.
+     */
     public SystemActor SystemActor;
+    /**
+     * Stores the ScenarioLinesList objects.
+     */
     public ArrayList<ScenarioLine> ScenarioLinesList;
 
+    /**
+     * Constructor: Initialize objects.
+     */
     public ScenarioElementsModel(){
         Title = new Title();
         ActorsList = new ArrayList<NormalActor>();
@@ -20,6 +38,10 @@ public class ScenarioElementsModel {
         ScenarioLinesList = new ArrayList<ScenarioLine>();
     }
 
+    /**
+     * Constructor: Transform JSON model to Elements model.
+     * @param jsonModel ScenarioJSONModel.
+     */
     public ScenarioElementsModel(ScenarioJSONModel jsonModel){
         Title = new Title();
         ActorsList = new ArrayList<NormalActor>();

@@ -8,10 +8,17 @@ import pl.put.poznan.sqc.models.ScenarioElementsModel;
 import pl.put.poznan.sqc.models.ScenarioJSONModel;
 import pl.put.poznan.sqc.visitors.ScenarioStepCounterVisitor;
 
+/**
+ * Handles the functionality of the "/ScenarioStepCounter" endpoint.
+ */
 @RestController
 @RequestMapping("/ScenarioStepCounter")
 public class ScenarioStepCounter {
-
+    /**
+     * Loads data from JSON and uses the ScenarioStepCounterVisitor to count steps in a scenario.
+     * @param scenarioModel A scenario model in JSON format.
+     * @return The number of steps in a scenario (string).
+     */
     // If you dont have argument, you must use ""
     @RequestMapping(method = RequestMethod.POST, produces = "application/json")
     @ResponseBody
