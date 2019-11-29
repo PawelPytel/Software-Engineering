@@ -32,4 +32,6 @@ public class ScenarioJSONModel {
      */
     public ArrayList<String> ScenarioLinesList;
 
+    public int AccessLevel;
+
 }
