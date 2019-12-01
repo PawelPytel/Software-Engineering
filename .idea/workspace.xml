@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddec5298-a09c-455a-9c39-fa30be24617d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/Helpers/WhiteSpace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/controller/AccessLevelPointController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IControllerWithIntParametr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IVisitorWithIntParametr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/AccessLevelPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/AccessLevelPointVisitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/NormalActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/NormalActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/ScenarioLine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/ScenarioLine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/SystemActor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/SystemActor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/elements/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/interfaces/IElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioJSONModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/models/ScenarioJSONModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -169,6 +156,7 @@
       <workItem from="1573481347609" duration="2275000" />
       <workItem from="1574858678735" duration="1956000" />
       <workItem from="1574861546847" duration="1653000" />
+      <workItem from="1575110028038" duration="1741000" />
     </task>
     <servers />
   </component>
@@ -197,11 +185,6 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/rest/AccessLevelPoint.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/AccessLevelPointVisitor.java</url>
           <line>42</line>
           <option name="timeStamp" value="12" />
@@ -210,6 +193,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/AccessLevelPointVisitor.java</url>
           <line>33</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
