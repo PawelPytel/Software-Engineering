@@ -53,9 +53,9 @@ public class KeyWordsCounterVisitor implements IVisitor {
      * @param element Scenario line.
      */
     public void Visit(ScenarioLine element) {
-        if (!element.scenarioLine.isEmpty()) {
-            String noWhiteSpaceScenarioLine = element.scenarioLine.
-                    substring(WhiteSpace.AmountOnFront(element.scenarioLine));
+        if (!element.getScenarioLine().isEmpty()) {
+            String noWhiteSpaceScenarioLine = element.getScenarioLine().
+                    substring(WhiteSpace.AmountOnFront(element.getScenarioLine()));
             if (noWhiteSpaceScenarioLine.length() >= 3) {
                 if (noWhiteSpaceScenarioLine.substring(0, 4).equals("IF: "))
                     numberOfKeyWords++;
