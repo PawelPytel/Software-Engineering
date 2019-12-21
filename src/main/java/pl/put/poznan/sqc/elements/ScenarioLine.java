@@ -6,7 +6,9 @@ import pl.put.poznan.sqc.interfaces.IVisitorWithIntParametr;
 
 public class ScenarioLine implements IElement {
     public String scenarioLine;
-
+    public String getScenarioLine(){
+        return scenarioLine;
+    }
     public void accept(IVisitor visitor){
         visitor.Visit(this);
     }

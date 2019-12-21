@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddec5298-a09c-455a-9c39-fa30be24617d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/sqc/visitors/ScenarioStepCounterVisitorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/ScenarioStepCounterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/ScenarioStepCounterVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitorTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,10 @@
   </component>
   <component name="ProjectId" id="1T79D8guRB2eNCcJwTQyalcgsAd" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -53,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.put.poznan.sqc.visitors" />
       <recent name="pl.put.poznan.sqc.interfaces" />
       <recent name="pl.put.poznan.sqc.models" />
       <recent name="pl.put.poznan.transformer.rest" />
@@ -70,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TextTransformerApplication">
+  <component name="RunManager" selected="JUnit.ScenarioStepCounterVisitorTest">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -93,6 +100,48 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ioprojectarchitecture" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ioprojectarchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScenarioStepCounterVisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioprojectarchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.put.poznan.sqc.visitors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.put.poznan.sqc.visitors" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.sqc.visitors.ScenarioStepCounterVisitorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScenarioStepCounterVisitorTest.testScenarioLine" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioprojectarchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.put.poznan.sqc.visitors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.put.poznan.sqc.visitors" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.sqc.visitors.ScenarioStepCounterVisitorTest" />
+      <option name="METHOD_NAME" value="testScenarioLine" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +180,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ScenarioStepCounterVisitorTest" />
+        <item itemvalue="JUnit.ScenarioStepCounterVisitorTest.testScenarioLine" />
         <item itemvalue="Application.TextTransformerApplication" />
       </list>
     </recent_temporary>
@@ -156,7 +207,11 @@
       <workItem from="1573481347609" duration="2275000" />
       <workItem from="1574858678735" duration="1956000" />
       <workItem from="1574861546847" duration="1653000" />
-      <workItem from="1575110028038" duration="1741000" />
+      <workItem from="1575110028038" duration="2894000" />
+      <workItem from="1576154786532" duration="26000" />
+      <workItem from="1576851035501" duration="5106000" />
+      <workItem from="1576938264576" duration="267000" />
+      <workItem from="1576942785944" duration="4998000" />
     </task>
     <servers />
   </component>
@@ -195,9 +250,9 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="18" />
+          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/AuthorsCheckerVisitor.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
