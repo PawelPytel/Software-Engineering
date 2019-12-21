@@ -9,7 +9,7 @@ import pl.put.poznan.sqc.elements.Title;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-class KeyWordsCounterVisitorTest {
+public class KeyWordsCounterVisitorTest {
     private KeyWordsCounterVisitor visitor;
     @Before
     public void setUp(){
