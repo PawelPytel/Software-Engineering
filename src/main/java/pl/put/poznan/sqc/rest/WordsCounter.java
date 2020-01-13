@@ -8,7 +8,6 @@ import pl.put.poznan.sqc.elements.NormalActor;
 import pl.put.poznan.sqc.elements.ScenarioLine;
 import pl.put.poznan.sqc.models.ScenarioElementsModel;
 import pl.put.poznan.sqc.models.ScenarioJSONModel;
-import pl.put.poznan.sqc.trash.TextTransformerController;
 import pl.put.poznan.sqc.visitors.WordsCounterVisitor;
 
 import java.util.Arrays;
