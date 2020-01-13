@@ -6,6 +6,9 @@ import pl.put.poznan.sqc.interfaces.IVisitorWithIntParametr;
 
 public class NormalActor implements IElement {
     public String normalActor;
+    public String getNormalActor(){
+        return this.normalActor;
+    }
 
     public void accept(IVisitor visitor){
         visitor.Visit(this);

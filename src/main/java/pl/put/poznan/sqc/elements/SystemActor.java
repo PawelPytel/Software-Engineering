@@ -6,7 +6,9 @@ import pl.put.poznan.sqc.interfaces.IVisitorWithIntParametr;
 
 public class SystemActor implements IElement {
     public String systemActor;
-
+    public String getSystemActor(){
+        return this.systemActor;
+    }
     public void accept(IVisitor visitor){
         visitor.Visit(this);
     }

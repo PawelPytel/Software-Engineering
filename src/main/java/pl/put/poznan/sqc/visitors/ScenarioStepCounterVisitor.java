@@ -15,6 +15,7 @@ public class ScenarioStepCounterVisitor implements IVisitor{
      * Stores the current number of steps words found in a scenario.
      */
     public int numberOfSteps;
+    private int actorListIs;
 
     /**
      * Constructor: sets the starting number of steps words.
@@ -43,8 +44,11 @@ public class ScenarioStepCounterVisitor implements IVisitor{
      * @param element NormalActor.
      */
     public void Visit(NormalActor element){
-        if(!element.normalActor.isEmpty() )
-            numberOfSteps++;
+        if(!element.normalActor.isEmpty() ){
+            actorListIs++;
+            if(actorListIs == 1)
+                numberOfSteps++;
+        }
     }
     /**
      * Increments number of steps if the Scenario Line is not empty.
@@ -53,6 +57,5 @@ public class ScenarioStepCounterVisitor implements IVisitor{
     public void Visit(ScenarioLine element){
         if(!element.scenarioLine.isEmpty() )
             numberOfSteps++;
-
     }
 }

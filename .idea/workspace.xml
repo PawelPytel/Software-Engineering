@@ -1,9 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ddec5298-a09c-455a-9c39-fa30be24617d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/member-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/member-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/controller/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/controller/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/controller/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/controller/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/rest/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/rest/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/rest/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/rest/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/visitors/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/visitors/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/visitors/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/pl/put/poznan/sqc/visitors/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/type-search-index.js" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/type-search-index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ioprojectarchitecture.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +67,10 @@
   </component>
   <component name="ProjectId" id="1T79D8guRB2eNCcJwTQyalcgsAd" />
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -49,13 +81,15 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pl.put.poznan.sqc.visitors" />
+      <recent name="pl.put.poznan.sqc.controller" />
+      <recent name="pl.put.poznan.sqc.rest" />
       <recent name="pl.put.poznan.sqc.interfaces" />
       <recent name="pl.put.poznan.sqc.models" />
-      <recent name="pl.put.poznan.transformer.rest" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -70,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TextTransformerApplication">
+  <component name="RunManager" selected="Spring Boot.TextTransformerApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -93,6 +127,43 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccessLevelVisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioprojectarchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="uniqueId" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <uniqueIds>
+        <uniqueId value="[engine:junit-vintage]/[runner:pl.put.poznan.sqc.visitors.AccessLevelVisitorTest]" />
+      </uniqueIds>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccessLevelVisitorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioprojectarchitecture" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.put.poznan.sqc.visitors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl.put.poznan.sqc.visitors" />
+      <option name="MAIN_CLASS_NAME" value="pl.put.poznan.sqc.visitors.AccessLevelVisitorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in ioprojectarchitecture" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ioprojectarchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,6 +202,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in ioprojectarchitecture" />
+        <item itemvalue="JUnit.AccessLevelVisitorTest" />
         <item itemvalue="Application.TextTransformerApplication" />
       </list>
     </recent_temporary>
@@ -156,7 +229,14 @@
       <workItem from="1573481347609" duration="2275000" />
       <workItem from="1574858678735" duration="1956000" />
       <workItem from="1574861546847" duration="1653000" />
-      <workItem from="1575110028038" duration="1741000" />
+      <workItem from="1575110028038" duration="2894000" />
+      <workItem from="1576154786532" duration="26000" />
+      <workItem from="1576851035501" duration="5106000" />
+      <workItem from="1577053944318" duration="636000" />
+      <workItem from="1577384136485" duration="1751000" />
+      <workItem from="1578132947047" duration="16108000" />
+      <workItem from="1578161038776" duration="701000" />
+      <workItem from="1578161802805" duration="1749000" />
     </task>
     <servers />
   </component>
@@ -183,21 +263,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/transformer/rest/TextTransformerController.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/AccessLevelPointVisitor.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/AccessLevelPointVisitor.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/pl/put/poznan/sqc/visitors/KeyWordsCounterVisitor.java</url>
-          <line>58</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

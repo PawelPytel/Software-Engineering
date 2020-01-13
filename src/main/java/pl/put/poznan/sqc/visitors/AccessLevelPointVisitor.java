@@ -19,31 +19,29 @@ public class AccessLevelPointVisitor implements IVisitorWithIntParametr {
 
     @Override
     public void Visit(Title element, int accesLevel) {
-        if(element.title != "")
-            scenarioJSONModel.Title = element.title.toString();
+        if(element.getTitle() != "")
+            scenarioJSONModel.Title = element.getTitle();
     }
 
     @Override
     public void Visit(SystemActor element, int accesLevel) {
-        if(element.systemActor != "")
-            scenarioJSONModel.SystemActor = element.systemActor;
+        if(element.getSystemActor() != "")
+            scenarioJSONModel.SystemActor = element.getSystemActor();
     }
 
     @Override
     public void Visit(NormalActor element, int accesLevel) {
-        if(element.normalActor != "") {
-            int spaceAmount = WhiteSpace.AmountOnFront(element.normalActor);
-            if(spaceAmount <= accesLevel-1)
-                scenarioJSONModel.ActorsList.add(element.normalActor);
+        if(element.getNormalActor() != "") {
+            scenarioJSONModel.ActorsList.add(element.getNormalActor());
         }
     }
 
     @Override
     public void Visit(ScenarioLine element, int accesLevel) {
-        if(element.scenarioLine != "") {
-            int spaceAmount = WhiteSpace.AmountOnFront(element.scenarioLine);
+        if(element.getScenarioLine() != "") {
+            int spaceAmount = WhiteSpace.AmountOnFront(element.getScenarioLine());
             if(spaceAmount <= accesLevel-1)
-                scenarioJSONModel.ScenarioLinesList.add(element.scenarioLine);
+                scenarioJSONModel.ScenarioLinesList.add(element.getScenarioLine());
         }
     }
 }
