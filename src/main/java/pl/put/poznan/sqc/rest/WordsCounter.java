@@ -23,7 +23,7 @@ public class WordsCounter {
      * @param scenarioModel A scenario model in JSON format.
      * @return The number of steps in a scenario (string).
      */
-    private static final Logger logger = LoggerFactory.getLogger(TextTransformerController.class);
+    private static final Logger logger = LoggerFactory.getLogger(WordsCounter.class);
 
     // If you dont have argument, you must use ""
     @RequestMapping(method = RequestMethod.POST, produces = "application/json")
