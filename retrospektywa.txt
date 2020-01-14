@@ -1,0 +1,11 @@
+Co wyszło dobrze:
+- wybranie narzędzia, które Kamil stosuje w swojej pracy (Azure DevOps) - dobrze je zna
+- DevOps posiada wszytskie niezbędne narzędzia w jednym miejscu 
+- dobra komunikacja w zespole, konwersacja na Faceooku
+- Scrum Master dbał o poprawne przestrzeganie metodyki poprzez kontrolowanie postępów i organizowanie spotkań
+  
+
+Co wyszło źle:
+- mało spotkań, a długie
+- nierównomierny podział pracy 
+- brak motywacyjnych ciastek podczas spotkań 

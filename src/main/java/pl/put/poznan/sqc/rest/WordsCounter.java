@@ -8,7 +8,6 @@ import pl.put.poznan.sqc.elements.NormalActor;
 import pl.put.poznan.sqc.elements.ScenarioLine;
 import pl.put.poznan.sqc.models.ScenarioElementsModel;
 import pl.put.poznan.sqc.models.ScenarioJSONModel;
-import pl.put.poznan.sqc.trash.TextTransformerController;
 import pl.put.poznan.sqc.visitors.WordsCounterVisitor;
 
 import java.util.Arrays;
@@ -24,7 +23,7 @@ public class WordsCounter {
      * @param scenarioModel A scenario model in JSON format.
      * @return The number of steps in a scenario (string).
      */
-    private static final Logger logger = LoggerFactory.getLogger(TextTransformerController.class);
+    private static final Logger logger = LoggerFactory.getLogger(WordsCounter.class);
 
     // If you dont have argument, you must use ""
     @RequestMapping(method = RequestMethod.POST, produces = "application/json")
